@@ -20,7 +20,7 @@
 
     .left {
 
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: inline-block;
         position: absolute;
         left: 24px;
@@ -32,7 +32,7 @@
         /* margin-top: 15px; */
         margin: 15px auto;
         width: 33%;
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
     }
 
     .right {
@@ -40,7 +40,7 @@
         right: 24px;
         top: 15px;
         display: inline-block;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 
     .navbar {
@@ -69,15 +69,15 @@
     }
     .left div{
         text-align: center;
-        line-height: 3px;
+        line-height: 4px;
         /* font-size: 20px; */
     }
     .btn{
-        margin: 0px 9px;
+        margin: 5px 9px;
         background-color: black;
         color: white;
         padding: 3px 14px;
-        border: 2px solid blueviolet;
+        border: 2px solid #222123;
         border-radius: 20px;
         font-size: 20px;
         cursor: pointer;
@@ -86,9 +86,36 @@
     .btn:hover{
         background-color: gray;
     }
+    .container{
+        border: 2px solid #6c716c;
+        margin: 2px 20px;
+        padding: 20px 30px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .form input{
+        width: 55%;
+        text-align: center;
+        padding: 2px;
+        display: block;
+        border: 2px solid black;
+        margin: 10px auto;
+        border-radius: 15px;
+        font-size: 15px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        width: 30%;
+    }
 </style>
 
 <body>
+    
     <header class="header">
 
         <!-- left for logo,  -->
@@ -102,9 +129,9 @@
         <div class="mid">
             <ul class="navbar">
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Tranner</a></li>
-                <li><a href="#">Contect Us</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Contect us</a></li>
             </ul>
         </div>
         <!-- buttion -->
@@ -113,6 +140,29 @@
             <button class="btn">E-Mail </button>
         </div>
     </header>
+    <div class="container">
+        <h1>Join Us</h1>
+        <form action="xyz.php">
+         <div class="form">
+             <input type="text" name="" placeholder="Enter your name">
+         </div>
+         <div class="form">
+             <input type="text" name="" placeholder="Mobile Number">
+         </div>
+         <div class="form">
+             <input type="text" name="" placeholder="Gender">
+         </div>
+         <div class="form">
+             <input type="text" name="" placeholder="Age">
+         </div>
+         <div class="form">
+             <input type="text" name="" placeholder="Address">
+         </div>
+         <button class="btn" id="btnn">SUBMIT</button>
+
+
+        </form>
+    </div>
 </body>
 
 </html>
