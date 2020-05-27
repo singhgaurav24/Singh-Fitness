@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh Fitness Center</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg.jpg');
+        /* height: 5555px; */
+        color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+
+        border: 2px solid red;
+        display: inline-block;
+        position: absolute;
+        left: 24px;
+        top: 15px;
+    }
+
+    .mid {
+        display: block;
+        /* margin-top: 15px; */
+        margin: 15px auto;
+        width: 33%;
+        border: 2px solid yellow;
+    }
+
+    .right {
+        position: absolute;
+        right: 24px;
+        top: 15px;
+        display: inline-block;
+        border: 2px solid green;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* color: white; */
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: gray;
+    }
+    .left img{
+        width: 90px;
+        /* height: 15px; */
+    }
+    .left div{
+        text-align: center;
+        line-height: 3px;
+        /* font-size: 20px; */
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 14px;
+        border: 2px solid blueviolet;
+        border-radius: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- left for logo,  -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>
+                Singh Fitness
+            </div>
+        </div>
+        <!-- for nevation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Tranner</a></li>
+                <li><a href="#">Contect Us</a></li>
+            </ul>
+        </div>
+        <!-- buttion -->
+        <div class="right">
+            <button class="btn">call now</button>
+            <button class="btn">E-Mail </button>
+        </div>
+    </header>
+</body>
+
+</html>
