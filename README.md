@@ -1,1 +1,2 @@
-# Singh-Fitness
+# Singh Fitness
+## Website for Gym & Fitness
